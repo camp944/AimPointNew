@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/twitter-bootstrap/css/bootstrap.css" asp-append-version="true"  />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AimPoint30.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" asp-append-version="true"  />
+</head>
+<body >
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+            <div class="container-fluid">
+                <a href="@Url.Action("Index","Home")" style="width:115px;height:55px;"><img class="navbar-brand " src="/icons/Home.png" style="width:100%;height:100%;"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbarCollapse" class="collapse navbar-collapse" style="padding-left:8px;">
+                    <ul class="nav navbar-nav">
+                                              
+                        <li class="nav-item dropdown fs-6 fw-semibold ">
+                            <a href="#" class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown"> <i class="fa fa-light fa-table"></i> Registros </a>
+                            <div class="dropdown-menu ">
+                                <a href="@Url.Action("Index","Dashboard")" class="dropdown-item fs-7 fw-semibold text-danger"><i class="fa fa-solid fa-gauge"></i> Dashboard </a>
+                                <a href="@Url.Action("Index","Coletas")" class="dropdown-item fs-7 fw-semibold text-danger"><i class="fa fa-solid fa-sack-dollar"></i></> Coletas </a>
+                                <a href="@Url.Action("Index","Calculos")" class="dropdown-item fs-7 fw-semibold text-danger"><i class="fa fa-solid fa-chart-line"></i> Calculos </a>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container"  >
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="navbar fixed-bottom pb-0" style="height:50px;">
+        <div class="container fs-6 text-light" style="padding-bottom:20px">
+            &copy; 2022 - AimPoint System  <a asp-area="" asp-page="/Privacy" class="fs-6 text-light" >Privacy</a>
+        </div> 
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+﻿@using AimPoint30.Entities.Model
+@using AimPoint30.Entities.ViewModels
+@using AimPoint30.Controllers;
+
+
+@model DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+    var data = ViewBag.Message;
+    ViewBag.Title = "Dashboard";
+}
+
+
+<div class="container text-center" style="height:1500px;background-color:rgba(255,255,255,0.6);margin-top:37px;border-radius:20px">
+        
+    <h1 class="display-4 fw-bold" style="padding:30px;color:black;">Dashboard</h1>
+
+    <div class="container">
+        <div class="row"style="padding-top:20px">
+             <div class="container bg-white" style="width:450px;height:350px;border-radius:20px;">
+                 <h2 class="fw-bold" style="padding-top:20px;color:rgba(90,70,0,1)"> Base 6 minutos <img src="/icons/kisspng-investment-money-real-estate-investing-clip-art-eis-clipart-5b49ef0b5e7064.4423728315315719793868.png" style="height:10%;width:10%"/></h2>
+                 <ul class="list-group" style="margin-top:25px">
+                     <il class="list-group-item h4">Data da coleta:</il>
+                     <il class="list-group-item h4">Valor coletado:</il>
+                     <il class="list-group-item h4">Data alvo:</il>
+                 </ul>
+                 <h3 style="margin-top:20px">Valor previsto</h3>
+                 <h3></h3>
+            </div>
+
+            <div class="container bg-white" style="width:450px;height:350px;border-radius:20px;box-shadow:3px">
+                 <h2 class="fw-bold" style="padding-top:20px;color:rgba(90,70,0,1)"> Base 30 minutos <img src="/icons/kisspng-investment-money-real-estate-investing-clip-art-eis-clipart-5b49ef0b5e7064.4423728315315719793868.png" style="height:10%;width:10%"/></h2>
+                 <ul class="list-group" style="margin-top:25px">
+                     <il class="list-group-item h4">Data da coleta:</il>
+                     <il class="list-group-item h4">Valor coletado:</il>
+                     <il class="list-group-item h4">Data alvo:</il>
+                 </ul>
+                 <h3 style="margin-top:20px">Valor previsto</h3>
+            </div>
+        </div>
+               
+         <div class="row" style="padding-top:80px">
+             <div class="container bg-white" style="width:450px;height:350px;border-radius:20px;">
+                  <h2 class="fw-bold" style="padding-top:20px;color:rgba(90,70,0,1)"> Base 3 horas <img src="/icons/kisspng-investment-money-real-estate-investing-clip-art-eis-clipart-5b49ef0b5e7064.4423728315315719793868.png" style="height:10%;width:10%"/></h2>
+                  <ul class="list-group" style="margin-top:25px">
+                     <il class="list-group-item h4">Data da coleta:</il>
+                     <il class="list-group-item h4">Valor coletado:</il>
+                     <il class="list-group-item h4">Data alvo:</il>
+                 </ul>
+                 <h3 style="padding-top:20px">Valor previsto</h3>
+            </div>
+
+            <div class="container bg-white" style="width:450px;height:350px;border-radius:20px;box-shadow:3px">
+                 <h2 class="fw-bold" style="padding-top:20px;color:rgba(90,70,0,1)"> Base 1 dia <img src="/icons/kisspng-investment-money-real-estate-investing-clip-art-eis-clipart-5b49ef0b5e7064.4423728315315719793868.png" style="height:10%;width:10%"/></h2>
+                 <ul class="list-group" style="margin-top:25px;color:rgba(0,0,0,1)">
+                     <il class="list-group-item h4">Data da coleta: @data.Vday1.DateInit</il>
+                     <il class="list-group-item h4">Valor coletado: US$ @data.Vday1.PriceInit</il>
+                     <il class="list-group-item h4">Data alvo:</il>
+                 </ul>
+                 <h3 style="padding-top:20px">Valor previsto</h3>
+            </div>
+        </div> 
+        
+        <div class="row" style="padding-top:80px">
+             <div class="container bg-white" style="width:450px;height:350px;border-radius:20px;">
+                  <h2 class="fw-bold" style="padding-top:20px;color:rgba(90,70,0,1)"> Base 1 semana <img src="/icons/kisspng-investment-money-real-estate-investing-clip-art-eis-clipart-5b49ef0b5e7064.4423728315315719793868.png" style="height:10%;width:10%"/></h2>
+                  <ul class="list-group" style="margin-top:25px">
+                     <il class="list-group-item h4">Data da coleta:</il>
+                     <il class="list-group-item h4">Valor coletado:</il>
+                     <il class="list-group-item h4">Data alvo:</il>
+                 </ul>
+                 <h3 style="padding-top:20px">Valor previsto</h3>
+            </div>
+
+            <div class="container bg-white" style="width:450px;height:350px;border-radius:20px;box-shadow:3px">
+                 
+                 <h2 class="fw-bold" style="padding-top:20px;color:rgba(90,70,0,1)"> Base 4 semanas <img src="/icons/kisspng-investment-money-real-estate-investing-clip-art-eis-clipart-5b49ef0b5e7064.4423728315315719793868.png" style="height:10%;width:10%"/></h2>
+                 
+                 <ul class="list-group" style="margin-top:25px">
+                     <il class="list-group-item h4">Data da coleta:</il>
+                     <il class="list-group-item h4">Valor coletado:</il>
+                     <il class="list-group-item h4">Data alvo:</il>
+                 </ul>
+                 <h3 style="padding-top:20px">Valor previsto</h3>
+            </div>
+        </div>
+      
+    </div>
+        
+    <h1 class="display-4 fw-bold text-danger">  </h1>
+        
+</div>

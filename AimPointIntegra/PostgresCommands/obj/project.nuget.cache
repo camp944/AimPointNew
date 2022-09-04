@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "O0P9MBJ1Y9iXRVlzp/7yGtYeMEa50ttskqWhF5AngEuD01ZMKnL6GWFomxXZaI5T2oDoW+51o6fnJMobKbtKhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint\\PostgresCommands\\PostgresCommands.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\camp9\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
+    "C:\\Users\\camp9\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

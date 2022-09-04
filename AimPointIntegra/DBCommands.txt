@@ -1,0 +1,82 @@
+create database pi;
+
+create table "Min_6"(
+	date_request varchar(55) primary key,
+	price numeric(10,2)
+);
+
+create table "Min_30"(
+	date_request varchar(55) primary key,
+	price numeric(10,2)
+);
+
+create table "Hour_3"(
+	date_request varchar(55) primary key,
+	price numeric(10,2)
+);
+
+create table "Day_1"(
+	date_request varchar(55) primary key,
+	price numeric(10,2)
+);
+
+create table "Day_7"(
+	date_request varchar(55) primary key,
+	price numeric(10,2)
+);
+
+create table "Week_4"(
+	date_request varchar(55) primary key,
+	price numeric(10,2)
+);
+
+
+create table "SightMin_6"(
+        date_init varchar (55) primary key,
+        price_init numeric (10,2),
+        price_target numeric (10,2),
+        date_end varchar (55),
+        price_end numeric (10,2)
+);
+
+
+create table "SightMin_30"(
+        date_init varchar (55) primary key,
+        price_init numeric (10,2),
+        price_target numeric (10,2),
+        date_end varchar (55),
+        price_end numeric (10,2)
+);
+
+
+create table "SightHour_3"(
+        date_init varchar (55) primary key,
+        price_init numeric (10,2),
+        price_target numeric (10,2),
+        date_end varchar (55),
+        price_end numeric (10,2)
+);
+
+create table "SightDay_1"(
+        date_init varchar (55) primary key,
+        price_init numeric (10,2),
+        price_target numeric (10,2),
+        date_end varchar (55),
+        price_end numeric (10,2)
+);
+
+create table "SightDay_7"(
+        date_init varchar (55) primary key,
+        price_init numeric (10,2),
+        price_target numeric (10,2),
+        date_end varchar (55),
+        price_end numeric (10,2)
+);
+
+create table "SightWeek_4"(
+        date_init varchar (55) primary key,
+        price_init numeric (10,2),
+        price_target numeric (10,2),
+        date_end varchar (55),
+        price_end numeric (10,2)
+);
