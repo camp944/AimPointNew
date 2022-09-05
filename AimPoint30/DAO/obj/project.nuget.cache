@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5dKo65lgzM1neZps4E0vEgA/1QVNTAavL1takEdr5hhSh/A1MbdsA6V3SiEOVtIVjju4vpip6kHU0Hbb83AZHA==",
+  "dgSpecHash": "G54odFWk+thV0eRU4LqjjEk4pwd6pzSZi0K0PzTWPJf0VaNUK+MpueBX4Jbk68EgQwo6KtC1iifxZAVC9B8wDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint30\\DAO\\DAO.csproj",
+  "projectFilePath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\GitUp\\AimPointNew\\AimPoint30\\DAO\\DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camp9\\.nuget\\packages\\apache-thrift-netcore\\0.9.3.2\\apache-thrift-netcore.0.9.3.2.nupkg.sha512",
     "C:\\Users\\camp9\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",

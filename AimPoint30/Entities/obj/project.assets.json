@@ -15719,11 +15719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint30\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\GitUp\\AimPointNew\\AimPoint30\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint30\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\GitUp\\AimPointNew\\AimPoint30\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\camp9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint30\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\GitUp\\AimPointNew\\AimPoint30\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

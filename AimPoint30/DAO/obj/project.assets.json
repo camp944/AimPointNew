@@ -15671,11 +15671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint30\\DAO\\DAO.csproj",
+      "projectUniqueName": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\GitUp\\AimPointNew\\AimPoint30\\DAO\\DAO.csproj",
       "projectName": "DAO",
-      "projectPath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint30\\DAO\\DAO.csproj",
+      "projectPath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\GitUp\\AimPointNew\\AimPoint30\\DAO\\DAO.csproj",
       "packagesPath": "C:\\Users\\camp9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint30\\DAO\\obj\\",
+      "outputPath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\GitUp\\AimPointNew\\AimPoint30\\DAO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15695,8 +15695,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint30\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint30\\Entities\\Entities.csproj"
+            "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\GitUp\\AimPointNew\\AimPoint30\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\GitUp\\AimPointNew\\AimPoint30\\Entities\\Entities.csproj"
             }
           }
         }

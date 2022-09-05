@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vc4w5bFFOZ/kjaX2bErT0urm8Zk0vv2b+yBgA0NQXzmiezPqXbLsP4JuPflLEob3nx/epXRXddX+CtQ2Wlqc6A==",
+  "dgSpecHash": "EKKei56ziP673ffM/GYe97bJhQ3oZQ5fjK06W6yvNBvs2PfgoFVxLElC5GNnFGxT4zSU5e3ISJZrhq2nqDHmJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\AimPoint\\AimPoint30\\AimPoint30\\AimPoint30.csproj",
+  "projectFilePath": "C:\\Users\\camp9\\OneDrive\\Área de Trabalho\\GitUp\\AimPointNew\\AimPoint30\\AimPoint30\\AimPoint30.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camp9\\.nuget\\packages\\apache-thrift-netcore\\0.9.3.2\\apache-thrift-netcore.0.9.3.2.nupkg.sha512",
     "C:\\Users\\camp9\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
